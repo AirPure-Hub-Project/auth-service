@@ -1,0 +1,18 @@
+{
+  "name": "airpure-auth-service",
+  "version": "1.0.0",
+  "description": "Authentication and authorization microservice for AirPure Hub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
